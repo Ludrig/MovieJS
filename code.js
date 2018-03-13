@@ -1,3 +1,6 @@
+
+  let $ = require("jquery");
+  let movieData = require("./data");
 function renderMovie(movie){
     // document.getElementById("movieTitle").innerText = movie.title;
     // document.getElementById("plot").innerText = movie.plot;

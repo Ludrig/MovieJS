@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "styles": "lessc style.less style.css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludrig/MovieJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludrig/MovieJS/issues"
+  },
+  "homepage": "https://github.com/Ludrig/MovieJS#readme",
+  "devDependencies": {
+    "less": "^3.0.1"
+  }
+}

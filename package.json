@@ -4,9 +4,11 @@
   "description": "",
   "main": "code.js",
   "scripts": {
-    "styles": "lessc style.less style.css",
+    "styles": "lessc style.less distribution/style.css",
     "bundle": "webpack",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "copyindex": "cp index.html distribution/index.html",
+    "build": "npm run bundle && npm run style && npm run copyindex"
   },
   "repository": {
     "type": "git",

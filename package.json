@@ -8,7 +8,7 @@
     "bundle": "webpack",
     "start:dev": "webpack-dev-server",
     "copyindex": "cp index.html distribution/index.html",
-    "build": "npm run bundle && npm run style && npm run copyindex"
+    "build": "npm run bundle && npm run styles && npm run copyindex"
   },
   "repository": {
     "type": "git",

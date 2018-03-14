@@ -1,7 +1,8 @@
 
-  import {movieData} from "./data";
+  import {movieData} from "./data"
+  import { Review } from "./interfaces";
   import * as $ from "jquery";
-function renderMovie(movie){
+function renderMovie(movie: Review){
     // document.getElementById("movieTitle").innerText = movie.title;
     // document.getElementById("plot").innerText = movie.plot;
     // document.getElementById("poster").setAttribute("src", movie.img);
@@ -31,10 +32,13 @@ function renderMovie(movie){
     }
   }
   
-  $(".starRating").on("click", "span", function(e){
+  $(".starRating").on("click", "span", (e) => {
    let star = $(e.target);
    let rating = parseInt(star.attr("data-rating-id"));
    changeStarRating(rating);
+
+   
+
  });
     
 

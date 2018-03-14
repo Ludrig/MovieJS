@@ -1,6 +1,6 @@
 
-  let $ = require("jquery");
-  let movieData = require("./data");
+  import {movieData} from "./data";
+  import * as $ from "jquery";
 function renderMovie(movie){
     // document.getElementById("movieTitle").innerText = movie.title;
     // document.getElementById("plot").innerText = movie.plot;
